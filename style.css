@@ -1,0 +1,32 @@
+.questions{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.options{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.correct-answer{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.questionForm{
+	margin-left: 75px;
+}
+
+.box{
+	
+	width:1200px;
+	height: 540px;
+	background-color:lightyellow;
+	border-top:40px solid lightblue;
+	border-bottom: 40px solid lightblue;
+}
+
+body{
+	color: black;
+}
+

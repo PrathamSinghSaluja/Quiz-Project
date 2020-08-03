@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>QUIZ PROJECT</title>
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        
+     </head>
+    <body>
+
+
+        <div class="container">
+            <div class="box">
+            <div style="text-align: center;font-size: 60px;font-weight: bold;">
+                QUIZ
+            </div>
+            <br/><br/>
+
+        <main>
+    
+            <form class="questionForm" id="q1" data-question="1">
+                <h1>Q1. Who was the first Indian woman in Space?</h1>
+                <ul>
+                <h4><li><input type="radio" name="q1" value="a">&nbsp;Kalpana Chawla</li>
+                    <li><input type="radio" name="q1" value="b">&nbsp;Sunita Williams</li>
+                    <li><input type="radio" name="q1" value="c">&nbsp;Koneru Humpy</li>
+                    <li><input type="radio" name="q1" value="d">&nbsp;None of the above</li></h4>
+                </ul>
+    
+            <button class="btn btn-primary btn-lg" id="submit" style="margin-left: 36%">Next</button>
+    
+            </form>
+
+            <form class="questionForm" id="q2" data-question="2">
+                <h1>Q2. Who was the first Indian in space?</h1>
+                <ul>
+                    <h4><li><input type="radio" name="q2" value="a">Vikram Ambalal</li>
+                    <li><input type="radio" name="q2" value="b">Ravish Malhotra</li>
+                    <li><input type="radio" name="q2" value="c">Rakesh Sharma</li>
+                    <li><input type="radio" name="q2" value="d">Nagapathi Bhat</li></h4>
+                </ul>
+    
+           
+            <button class="btn btn-danger btn-lg" id="previous">Previous</button>
+             <button class="btn btn-primary btn-lg" id="submit" style="margin-left: 20%">Next</button>
+            </form>
+
+            <form class="questionForm" id="q3" data-question="3">
+                <h1>Q3. Who was the first Man to Climb Mount Everest Without Oxygen?</h1>
+                <ul>
+                    <h4><li><input type="radio" name="q3" value="a">Junko Tabei</li>
+                    <li><input type="radio" name="q3" value="b">Reinhold Messner</li>
+                    <li><input type="radio" name="q3" value="c">Peter Habeler</li>
+                    <li><input type="radio" name="q3" value="d">Phu Dorji</li></h4>
+                </ul>
+    
+
+            <button class="btn btn-danger btn-lg" id="previous">Previous</button>
+             <button class="btn btn-primary btn-lg" id="submit" style="margin-left: 20%">Next</button>
+            </form>
+
+            <form class="questionForm" id="q4" data-question="4">
+                <h1>Q4. Who built the Jama Masjid?</h1>
+                <ul>
+                    <h4><li><input type="radio" name="q4" value="a">Jahangir</li>
+                    <li><input type="radio" name="q4" value="b">Akbar</li>
+                    <li><input type="radio" name="q4" value="c">Imam Bukhari</li>
+                    <li><input type="radio" name="q4" value="d">Shah Jahan</li></h4>
+                </ul>
+    
+            
+            <button class="btn btn-danger btn-lg" id="previous">Previous</button>
+             <button class="btn btn-primary btn-lg" id="submit" style="margin-left: 20%">Submit</button>
+            </form>
+
+            <form class="questionForm" id="q5" data-question="5">
+                <h1>Q5. Who wrote the Indian National Anthem?</h1>
+                <ul>
+                    <h4><li><input type="radio" name="q5" value="a">Bikram Chandra Chatterji</li>
+                    <li><input type="radio" name="q5" value="b">Rabindranath Tagore</li>
+                    <li><input type="radio" name="q5" value="c">Swami Vivekanand</li>
+                    <li><input type="radio" name="q5" value="d">None of the above</li></h4>
+                </ul>
+    
+
+            <button class="btn btn-danger btn-lg" id="previous">Previous</button>
+             <button class="btn btn-primary btn-lg" id="submit" style="margin-left: 20%">Next</button>
+            </form>
+
+            <form class="questionForm" id="q6" data-question="6">
+                <h1>Q6.  Who was the first Indian Scientist to win a Nobel Prize?</h1>
+                <ul>
+                    <h4><li><input type="radio" name="q6" value="a">CV Raman</li>
+                    <li><input type="radio" name="q6" value="b">Amartya Sen</li>
+                    <li><input type="radio" name="q6" value="c">Hargobind Khorana</li>
+                    <li><input type="radio" name="q6" value="d">Subramanian Chrandrashekar</li></h4>
+                </ul>
+    
+
+            <button class="btn btn-danger btn-lg" id="previous">Previous</button>
+             <button class="btn btn-primary btn-lg" id="submit" style="margin-left: 20%">Next</button>
+            </form>
+
+            <form class="questionForm" id="q7" data-question="7">
+                <h1>Q7. Who is the first Indian to win a Nobel Prize?</h1>
+                <ul>
+                    <h4><li><input type="radio" name="q7" value="a">Rabindranath Tagore</li>
+                    <li><input type="radio" name="q7" value="b">CV Raman</li>
+                    <li><input type="radio" name="q7" value="c">Mother Theresa</li>
+                    <li><input type="radio" name="q7" value="d">Hargobind Khorana</li></h4>
+                </ul>
+    
+
+            <button class="btn btn-danger btn-lg" id="previous">Previous</button>
+             <button class="btn btn-primary btn-lg" id="submit" style="margin-left: 20%">Next</button>
+            </form>
+
+            <form class="questionForm" id="q8" data-question="8">
+                <h1>Q8. Who was the first Indian woman to win the Miss World Title?</h1>
+                <ul>
+                    <h4><li><input type="radio" name="q8" value="a">Aishwarya Rai</li>
+                    <li><input type="radio" name="q8" value="b">Sushmita Sen</li>
+                    <li><input type="radio" name="q8" value="c">Reita Faria</li>
+                    <li><input type="radio" name="q8" value="d">Diya Mirza</li></h4>
+                </ul>
+    
+
+            <button class="btn btn-danger btn-lg" id="previous">Previous</button>
+             <button class="btn btn-primary btn-lg" id="submit" style="margin-left: 20%">Next</button>
+            </form>
+
+             <form class="questionForm" id="q9" data-question="9">
+                <h1>Q9. Who was the first President of India?</h1>
+                <ul>
+                    <h4><li><input type="radio" name="q9" value="a">Abdul Kalam</li>
+                    <li><input type="radio" name="q9" value="b">Lal Bahadur Shastri</li>
+                    <li><input type="radio" name="q9" value="c">Dr. Rajendra Prasad</li>
+                    <li><input type="radio" name="q9" value="d">Zakir Hussain</li></h4>
+                </ul>
+    
+
+            <button class="btn btn-danger btn-lg" id="previous">Previous</button>
+             <button class="btn btn-primary btn-lg" id="submit" style="margin-left: 20%">Next</button>
+            </form>
+
+             <form class="questionForm" id="q10" data-question="10">
+                <h1>Q10. Who was the first Indian to win the Booker Prize?</h1>
+                <ul>
+                    <h4><li><input type="radio" name="q10" value="a">Dhan Gopal Mukerji</li>
+                    <li><input type="radio" name="q10" value="b">Nirad C. Chaudhuri</li>
+                    <li><input type="radio" name="q10" value="c">Arundhati Roy</li>
+                    <li><input type="radio" name="q10" value="d">Aravind Adiga</li></h4>
+                </ul>
+    
+
+            <button class="btn btn-danger btn-lg" id="previous">Previous</button>
+             <button class="btn btn-primary btn-lg" id="submit" style="margin-left: 20%">Next</button>
+            </form>
+
+        <div id="results"></div>
+        <footer>
+
+            <h2><div class="pull-left container"> Total : 10 Questions</div>
+            
+        </footer>
+    </div>
+
+    </main>
+</div>
+
+
+    <script type="text/javascript">
+        
+    var score = 0;
+var total = 10;
+var point = 1;
+var highest = total * point;
+
+function init(){
+    // set correct answers 
+    sessionStorage.setItem('a1','a');
+    sessionStorage.setItem('a2','c');
+    sessionStorage.setItem('a3','d');
+    sessionStorage.setItem('a4','d');
+    sessionStorage.setItem('a5','b');
+    sessionStorage.setItem('a6','a');
+    sessionStorage.setItem('a7','a');
+    sessionStorage.setItem('a8','c');
+    sessionStorage.setItem('a9','c');
+    sessionStorage.setItem('a10','c');
+}
+
+$ (document).ready(function(){
+    $('.questionForm').hide();
+
+    $('#q1').show();
+
+    $('.questionForm #submit').click(function(){
+    
+        current = $(this).parents('form:first').data("question");
+        next = $(this).parents('form:first').data("question")+1;
+
+        $('.questionForm').hide();
+        $('#q'+next+'').fadeIn(300);
+        process(''+current+'');
+        return false
+
+     });
+
+    $('.questionForm #previous').click(function(){
+
+        current = $(this).parents('form:first').data("question");
+        previous = $(this).parents('form:first').data("question")-1;
+
+        $('.questionForm').hide();
+        $('#q' + previous + '').fadeIn(300);
+        process(''+previous+'');
+        return false
+    });
+
+    
+});
+
+function process(n){
+    var submitted = $('input[name=q'+n+']:checked').val();
+        if(submitted == sessionStorage.getItem('a'+n+'')){
+        score = score + point;
+    }
+
+
+if(n== total){
+        $('#results').html('<h3>Final Score is :'+score+' out of '+highest+' </h3>');
+
+
+        if (score >= highest/2) {
+            $('#results').append('<center><p style="background-color:#81ff8ebf;height:40px">Pass</p></center><br><center><button class="btn btn-success btn-lg"><a href="index.html">Take again</a></button></center>');
+        } else  {
+            $('#results').append('<center><p style="background-color:#ff8181bf;height:40px">Faild!!</p></center><br><center><button class="btn btn-warning btn-lg"><a href="index.html">Take again</a></button></center>');
+        }
+    }
+    
+    return false;
+}
+
+window.addEventListener('load',init,false);
+
+    </script>
+
+
+</body>
+</html>
+        
+      
